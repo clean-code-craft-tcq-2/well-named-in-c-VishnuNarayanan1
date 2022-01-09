@@ -1,1 +1,0 @@
-void ProcessUserInput(char userInput);

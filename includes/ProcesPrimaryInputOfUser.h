@@ -1,0 +1,1 @@
+void ProcesPrimaryInputOfUser(char userInput);
