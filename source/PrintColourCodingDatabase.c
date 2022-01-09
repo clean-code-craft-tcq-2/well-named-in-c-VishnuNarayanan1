@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ColourCodingDatabase.h>
 
 const char* MajorColourNames[] = {"WHITE", "RED", "BLACK", "YELLOW", "VIOLET"};
 const char* MinorColourNames[] = {"BLUE", "ORANGE", "GREEN", "BROWN", "SLATE"};
