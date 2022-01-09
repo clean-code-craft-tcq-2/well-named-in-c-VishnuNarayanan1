@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-const char* MajorColourNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
-const char* MinorColourNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+const char* MajorColourNames[] = {"WHITE", "RED", "BLACK", "YELLOW", "VIOLET"};
+const char* MinorColourNames[] = {"BLUE", "ORANGE", "GREEN", "BROWN", "SLATE"};
 const int MaxPossibleColoursInMajorOrMinor = 5;
 
 void PrintColourCodingDatabase(void)
