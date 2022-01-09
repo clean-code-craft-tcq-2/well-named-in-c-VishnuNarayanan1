@@ -1,10 +1,9 @@
 #include <stdio.h>
+#include <CommonDataOfColourCoding.h>
 #include <PrintColourCodingDatabase.h>
 
 enum MajorColour {WHITE, RED, BLACK, YELLOW, VIOLET, MaxMajorColor};
 enum MinorColour {BLUE, ORANGE, GREEN, BROWN, SLATE, MaxMinorColor};
-const char* MajorColourNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
-const char* MinorColourNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
 
 void PrintColourCodingDatabase(void)
 {
