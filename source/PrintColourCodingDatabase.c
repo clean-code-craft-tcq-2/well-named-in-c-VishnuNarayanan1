@@ -1,25 +1,25 @@
 #include <stdio.h>
 #include <PrintColourCodingDatabase.h>
 
-enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET, MaxMajorColor};
-enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE, MaxMinorColor};
-const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
-const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+enum MajorColour {WHITE, RED, BLACK, YELLOW, VIOLET, MaxMajorColor};
+enum MinorColour {BLUE, ORANGE, GREEN, BROWN, SLATE, MaxMinorColor};
+const char* MajorColourNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
+const char* MinorColourNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
 
 void PrintColourCodingDatabase(void)
 {
-  int indexMajorColors = 0;
-  int indexMinorColors = 0;
-  int colorCode = 1;
-  printf("------- COLOUR CODING DATABASE -------\n\n");
-  for(indexMajorColors = 0; indexMajorColors < (int)MaxMajorColor; indexMajorColors++)
-  {
-    for(indexMinorColors = 0; indexMinorColors < (int)MaxMinorColor; indexMinorColors++)
+    int indexMajorColours = 0;
+    int indexMinorColours = 0;
+    int colourCode = 1;
+    printf("------- COLOUR CODING DATABASE -------\n\n");
+    for(indexMajorColours = 0; indexMajorColours < (int)MaxMajorColour; indexMajorColours++)
     {
-       printf("\n Major Color : %s  ", MajorColorNames[indexMajorColors]);
-       printf("\n Minor Color : %s  ", MinorColorNames[indexMinorColors]);
-       printf("\n Color Code : %d  \n", colorCode);
-      colorCode++;
+        for(indexMinorColours = 0; indexMinorColours < (int)MaxMinorColour; indexMinorColours++)
+        {
+             printf("\n Major Colour : %s  ", MajorColourNames[indexMajorColors]);
+             printf("\n Minor Colour : %s  ", MinorColourNames[indexMinorColors]);
+             printf("\n Colour Code  : %d  \n", colourCode);
+             colourCode++;
+        }
     }
-  }
 }
