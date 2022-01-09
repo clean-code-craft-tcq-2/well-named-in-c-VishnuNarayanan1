@@ -1,3 +1,5 @@
+#define MaxPossibleColoursInMajorOrMinor (5u);
+
 typedef struct {
     const char* MajorColourNamesString[];
     const char* MinorColourNamesString[];
