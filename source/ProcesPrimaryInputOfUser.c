@@ -8,8 +8,12 @@ void ProcesPrimaryInputOfUser(char userInput)
       PrintColourCodingDatabase();
       break;
     case '2':
+        GetUserInputForAssertion();
+        AssertCodeAgainstColourPair();
+      break;
     case '3':
       GetUserInputForAssertion();
+      AssertColourPairAgainstCode();
       break;
     default:
       break; 
