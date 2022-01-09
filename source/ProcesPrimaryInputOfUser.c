@@ -5,17 +5,17 @@ void ProcesPrimaryInputOfUser(char userInput)
 {
   switch(userInput)
     case '1':
-      PrintColourCodingDatabase();
+        PrintColourCodingDatabase();
       break;
     case '2':
         GetUserInputForAssertion();
         AssertCodeAgainstColourPair();
       break;
     case '3':
-      GetUserInputForAssertion();
-      AssertColourPairAgainstCode();
+        GetUserInputForAssertion();
+        AssertColourPairAgainstCode();
       break;
     default:
-      printf("\n Valid user input is required to proceed ... Terminating ...\n");
+        printf("\n Valid user input is required to proceed ... Terminating ...\n");
       break; 
 }
