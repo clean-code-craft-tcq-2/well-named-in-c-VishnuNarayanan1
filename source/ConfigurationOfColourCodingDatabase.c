@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ConfigurationOfColourCodingDatabase.h>
 
-ColourCodingDatabase ColourCodingDatabaseDetails [MaxPossibleColoursInMajorOrMinor] =
+ColourCodingDatabase ColourCodingDatabaseDetails_struct [MaxPossibleColoursInMajorOrMinor] =
 {
     {"WHITE", "BLUE" , WHITE , BLUE},
     {"RED", "ORANGE" , RED , ORANGE},
