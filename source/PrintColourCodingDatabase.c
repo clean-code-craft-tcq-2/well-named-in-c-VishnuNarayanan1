@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <CommonDataOfColourCoding.h>
 
-enum MajorColour {WHITE, RED, BLACK, YELLOW, VIOLET, MaxMajorColor};
-enum MinorColour {BLUE, ORANGE, GREEN, BROWN, SLATE, MaxMinorColor};
 const char* MajorColourNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
 const char* MinorColourNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+const int MaxMajorColours = 5;
+const int MaxMinorColours = 5;
 
 void PrintColourCodingDatabase(void)
 {
@@ -12,9 +11,9 @@ void PrintColourCodingDatabase(void)
     int indexMinorColours = 0;
     int colourCode = 1;
     printf("------- COLOUR CODING DATABASE -------\n\n");
-    for(indexMajorColours = 0; indexMajorColours < (int)MaxMajorColour; indexMajorColours++)
+    for(indexMajorColours = 0; indexMajorColours < MaxMajorColours; indexMajorColours++)
     {
-        for(indexMinorColours = 0; indexMinorColours < (int)MaxMinorColour; indexMinorColours++)
+        for(indexMinorColours = 0; indexMinorColours < MaxMinorColours; indexMinorColours++)
         {
              printf("\n Major Colour : %s  ", MajorColourNames[indexMajorColors]);
              printf("\n Minor Colour : %s  ", MinorColourNames[indexMinorColors]);
