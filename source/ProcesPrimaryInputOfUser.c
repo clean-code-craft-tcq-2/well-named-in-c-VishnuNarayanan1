@@ -16,5 +16,6 @@ void ProcesPrimaryInputOfUser(char userInput)
       AssertColourPairAgainstCode();
       break;
     default:
+      printf("\n Valid user input is required to proceed ... Terminating ...\n");
       break; 
 }
