@@ -2,15 +2,18 @@
 #include <string.h>
 #include <GetColourPairFromCode.h>
 
+
+
 extern const char* MajorColourNames[];
 extern const char* MinorColourNames[];
 extern const int MaxColoursInMajorAndMinor;
 
-int GetColourPairFromCode(int colourCode);
+ColourPairFromCode GetColourPairFromCode(int colourCode);
 {
     int indexMajorColour = 0, indexMinorColour = 0;
     indexMajorColour = (colourCode / MaxColoursInMajorAndMinor);
     indexMinorColour = (colourCode % MaxColoursInMajorAndMinor);
+    
   
   
     int colourCode = 0, indexMajorColours = 0, indexMinorColours = 0, colourCode = 0, matchMajorColourWithInput = 0, matchMinorColourWithInput = 0;
