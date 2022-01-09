@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <ProcesUserInput.h>
+#include <ProcesPrimaryInputOfUser.h>
 
-void ProcessUserInput(char userInput)
+void ProcesPrimaryInputOfUser(char userInput)
 {
   switch(userInput)
     case '1':
