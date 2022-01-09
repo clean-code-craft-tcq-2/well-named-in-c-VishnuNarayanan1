@@ -9,7 +9,7 @@ void ProcessUserInput(char userInput)
       break;
     case '2':
     case '3':
-      ValidateUserInputForAssertion();
+      GetUserInputForAssertion();
       break;
     default:
       break; 
