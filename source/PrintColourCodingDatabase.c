@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <assert.h>
+#include <PrintColourCodingDatabase.h>
 
 enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET, MaxMajorColor};
 enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE, MaxMinorColor};
