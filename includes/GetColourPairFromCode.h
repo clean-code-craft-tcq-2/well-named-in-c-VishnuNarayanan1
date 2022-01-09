@@ -1,6 +1,6 @@
 typedef struct {
-                    char majorColourNameFromCode[];
-                    char minorColourNameFromCode[];
+                    char majorColour[];
+                    char minorColour[];
                } ColourPairFromCode;
 
 ColourPairFromCode GetColourPairFromCode(int colourCode);
