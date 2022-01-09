@@ -5,12 +5,12 @@ void ProcessUserInput(char userInput)
 {
   switch(userInput)
     case '1':
-    PrintColourCodingDatabase();
-    break;
+      PrintColourCodingDatabase();
+      break;
     case '2':
     case '3':
-    GetUserInputForAssertion();
-    break;
+      ValidateUserInputForAssertion();
+      break;
     default:
-    break; 
+      break; 
 }
