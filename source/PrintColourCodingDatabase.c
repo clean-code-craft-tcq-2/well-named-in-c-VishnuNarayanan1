@@ -1,9 +1,6 @@
 #include <stdio.h>
-#include <ColourCodingDatabase.h>
-
-const char* MajorColourNames[] = {"WHITE", "RED", "BLACK", "YELLOW", "VIOLET"};
-const char* MinorColourNames[] = {"BLUE", "ORANGE", "GREEN", "BROWN", "SLATE"};
-const int MaxPossibleColoursInMajorOrMinor = 5;
+#include <ConfigurationOfColourCodingDatabase.h>
+extern ColourCodingDatabase ColourCodingDatabaseDetails_struct [MaxPossibleColoursInMajorOrMinor];
 
 void PrintColourCodingDatabase(void)
 {
@@ -15,8 +12,8 @@ void PrintColourCodingDatabase(void)
     {
         for(indexMinorColours = 0; indexMinorColours < MaxPossibleColoursInMajorOrMinor; indexMinorColours++)
         {
-             printf("\n Major Colour : %s  ", MajorColourNames[indexMajorColors]);
-             printf("\n Minor Colour : %s  ", MinorColourNames[indexMinorColors]);
+             printf("\n Major Colour : %s  ", ColourCodingDatabaseDetails_struct[indexMajorColors].MajorColourNamesString);
+             printf("\n Minor Colour : %s  ", ColourCodingDatabaseDetails_struct[indexMinorColors].MinorColourNamesString);
              printf("\n Colour Code  : %d  \n", colourCode);
              colourCode++;
         }
