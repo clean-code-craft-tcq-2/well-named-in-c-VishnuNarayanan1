@@ -2,8 +2,7 @@
 
 const char* MajorColourNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
 const char* MinorColourNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
-const int MaxMajorColours = 5;
-const int MaxMinorColours = 5;
+const int MaxPossibleColoursInMajorOrMinor = 5;
 
 void PrintColourCodingDatabase(void)
 {
@@ -11,9 +10,9 @@ void PrintColourCodingDatabase(void)
     int indexMinorColours = 0;
     int colourCode = 1;
     printf("------- COLOUR CODING DATABASE -------\n\n");
-    for(indexMajorColours = 0; indexMajorColours < MaxMajorColours; indexMajorColours++)
+    for(indexMajorColours = 0; indexMajorColours < MaxPossibleColoursInMajorOrMinor; indexMajorColours++)
     {
-        for(indexMinorColours = 0; indexMinorColours < MaxMinorColours; indexMinorColours++)
+        for(indexMinorColours = 0; indexMinorColours < MaxPossibleColoursInMajorOrMinor; indexMinorColours++)
         {
              printf("\n Major Colour : %s  ", MajorColourNames[indexMajorColors]);
              printf("\n Minor Colour : %s  ", MinorColourNames[indexMinorColors]);
