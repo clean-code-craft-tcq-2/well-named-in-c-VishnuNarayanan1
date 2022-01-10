@@ -12,8 +12,8 @@ void PrintColourCodingDatabase(void)
     {
         for(indexMinorColours = 0; indexMinorColours < MaxPossibleColoursInMajorOrMinor; indexMinorColours++)
         {
-             printf("\n Major Colour : %s  ", MajorColorNamesString[indexMajorColours]);
-             printf("\n Minor Colour : %s  ", MinorColorNamesString[indexMinorColours]);
+             printf("\n Major Colour : %s  ", MajorColourNamesString[indexMajorColours]);
+             printf("\n Minor Colour : %s  ", MinorColourNamesString[indexMinorColours]);
              printf("\n Colour Code  : %d  \n", colourCode);
              colourCode++;
         }
