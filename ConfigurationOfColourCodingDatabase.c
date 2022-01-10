@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "includes/ConfigurationOfColourCodingDatabase.h"
+#include "ConfigurationOfColourCodingDatabase.h"
 
 const char* MajorColourNamesString[] = {"WHITE", "RED", "BLACK", "YELLOW", "VIOLET"};
 const char* MinorColourNamesString[] = {"BLUE", "ORANGE", "GREEN", "BROWN", "SLATE"};
