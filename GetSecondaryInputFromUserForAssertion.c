@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "ConfigurationOfColourCodingDatabase.h"
 #include "GetSecondaryInputFromUserForAssertion.h"
 
