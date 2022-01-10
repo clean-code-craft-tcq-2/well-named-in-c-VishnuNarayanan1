@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "ConfigurationOfColourCodingDatabase.h"
 #include "ProcessPrimaryInputOfUser.h"
+#include "PrintColourCodingDatabase.h"
 
 int main()
 {
@@ -8,7 +9,7 @@ int main()
     printf("------ Data base of colour coding ------\n\n");
     if(OperationTypeConfigured_Enum == PerformStandardOperations)
     {
-        
+        PrintColourCodingDatabase();
     }
     else
     {
