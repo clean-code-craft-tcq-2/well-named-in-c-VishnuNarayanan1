@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <ValidatePrimaryUserInputForAssertion.h>
-#include <GetUserInputForAssertion.h>
+#include <GetSecondaryInputFromUserForAssertion.h>
 
 void ValidatePrimaryUserInputForAssertion(char userInputForAssertion)
 {
