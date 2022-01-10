@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "includes/ConfigurationOfColourCodingDatabase.h"
-#include "includes/PrintColourCodingDatabase.h"
+#include "ConfigurationOfColourCodingDatabase.h"
+#include "PrintColourCodingDatabase.h"
 
 void PrintColourCodingDatabase(void)
 {
