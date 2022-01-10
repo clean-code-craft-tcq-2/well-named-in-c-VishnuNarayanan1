@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "includes/ProcessPrimaryInputOfUser.h"
-#include "includes/PrintColourCodingDatabase.h"
-#include "includes/ValidatePrimaryUserInputForAssertion.h"
+#include "ProcessPrimaryInputOfUser.h"
+#include "PrintColourCodingDatabase.h"
+#include "ValidatePrimaryUserInputForAssertion.h"
 
 void ProcessPrimaryInputOfUser(int userInput)
 {
