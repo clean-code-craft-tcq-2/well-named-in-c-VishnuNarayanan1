@@ -2,9 +2,9 @@
 #include <assert.h>
 #include "ConfigurationOfColourCodingDatabase.h"
 #include "GetSecondaryInputFromUserForAssertion.h"
-#include "AssertColourPairAgainstCode.h"
+#include "AssertWithUserInputsColourPairAgainstCode.h"
 
-void AssertColourPairAgainstCode(UserInputColoursAndCodes userInput)
+void AssertWithUserInputsColourPairAgainstCode(UserInputColoursAndCodes userInput)
 {
   userInput.colourCodingOutOfUserInput = userInput.colourCodingOutOfUserInput - 1;
   int majorColourIndex = (userInput.colourCodingOutOfUserInput / MaxPossibleColoursInMajorOrMinor);
