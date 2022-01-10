@@ -12,7 +12,9 @@ void AssertColourPairAgainstCode(UserInputColoursAndCodes userInput)
   printf("Major colour Index %d \n" , majorColourIndex);
   printf("Minor colour Index %d \n" , minorColourIndex);
   printf("Colour Index %d \n" , userInput.colourCodingOutOfUserInput);
+    printf("Major colour Index %d \n" , userInput.majorColourIndexOutOfUserInput);
+  printf("Minor colour Index %d \n" , userInput.minorColourIndexOutOfUserInput);
   
-  assert(MajorColourNamesString[majorColourIndex] == MajorColourNamesString[userInput.majorColourIndexOutOfUserInput]);
-  assert(MajorColourNamesString[minorColourIndex] == MinorColourNamesString[userInput.minorColourIndexOutOfUserInput]);
+  //assert(MajorColourNamesString[majorColourIndex] == MajorColourNamesString[userInput.majorColourIndexOutOfUserInput]);
+  //assert(MajorColourNamesString[minorColourIndex] == MinorColourNamesString[userInput.minorColourIndexOutOfUserInput]);
 }
