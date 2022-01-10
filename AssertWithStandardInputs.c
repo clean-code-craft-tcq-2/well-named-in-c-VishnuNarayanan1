@@ -12,15 +12,16 @@ void AssertWithStandardInputs(void)
         userInput.minorColourIndexOutOfUserInput  = BROWN;
         userInput.colourCodingOutOfUserInput  = 4;
         AssertCodeAgainstColourPair(userInput);
-        userInput.minorColourIndexOutOfUserInput  = WHITE;
+        userInput.majorColourIndexOutOfUserInput  = WHITE;
+        userInput.minorColourIndexOutOfUserInput  = SLATE;
         userInput.colourCodingOutOfUserInput  = 5;
         AssertCodeAgainstColourPair(userInput);
         userInput.majorColourIndexOutOfUserInput  = BLACK;
         userInput.minorColourIndexOutOfUserInput  = ORANGE;
         userInput.colourCodingOutOfUserInput  = 12;
-        //AssertColourPairAgainstCode(userInput);
+        AssertColourPairAgainstCode(userInput);
         userInput.majorColourIndexOutOfUserInput  = VIOLET;
         userInput.minorColourIndexOutOfUserInput  = SLATE;
         userInput.colourCodingOutOfUserInput  = 25;
-        //AssertColourPairAgainstCode(userInput);
+        AssertColourPairAgainstCode(userInput);
  }
