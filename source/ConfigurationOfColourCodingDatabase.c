@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <ConfigurationOfColourCodingDatabase.h>
 
-const char* MajorColorNamesString[] = {"White", "Red", "Black", "Yellow", "Violet"};
-const char* MinorColorNamesString[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
+const char* MajorColorNamesString[] = {"WHITE", "RED", "BLACK", "YELLOW", "VIOLET"};
+const char* MinorColorNamesString[] = {"BLUE", "ORANGE", "GREEN", "BROWN", "SLATE"};
 
 ColourCodingDatabase ColourCodingDatabaseDetails_struct [MaxPossibleColoursInMajorOrMinor] =
 {
