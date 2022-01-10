@@ -8,5 +8,5 @@ typedef struct {
     enum MinorColour_Enum MinorColourNamesEnum;
 } ColorCodingDatabase;
 
-extern const char* MajorColorNamesString[];
-extern const char* MinorColorNamesString[];
+extern const char* MajorColourNamesString[];
+extern const char* MinorColourNamesString[];
