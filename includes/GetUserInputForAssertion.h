@@ -1,8 +1,8 @@
 
 typedef struct {
-    int MajorColourIndexOutOfUserInput;
-    int MinorColourIndexOutOfUserInput;
-    int ColourCodingOutOfUserInput;
+    int majorColourIndexOutOfUserInput;
+    int minorColourIndexOutOfUserInput;
+    int colourCodingOutOfUserInput;
     int inputMatchSuccessStatus;
 } UserInputColoursAndCodes;
 
