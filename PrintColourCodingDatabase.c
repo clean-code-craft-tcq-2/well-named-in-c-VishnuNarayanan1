@@ -4,9 +4,9 @@
 
 void PrintColourCodingDatabase(void)
 {
-    int indexMajorColours = 0;
-    int indexMinorColours = 0;
-    int colourCode = 1;
+    unsigned int indexMajorColours = 0;
+    unsigned int indexMinorColours = 0;
+    unsigned int colourCode = 1;
     printf("------- COLOUR CODING DATABASE -------\n\n");
     for(indexMajorColours = 0; indexMajorColours < MaxPossibleColoursInMajorOrMinor; indexMajorColours++)
     {
