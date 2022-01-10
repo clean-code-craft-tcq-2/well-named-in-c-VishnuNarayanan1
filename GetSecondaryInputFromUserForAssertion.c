@@ -28,15 +28,11 @@ UserInputColoursAndCodes GetSecondaryInputFromUserForAssertion(void)
                  userInputDetails_struct.minorColourIndexOutOfUserInput = indexMinorColour;
                  userInputDetails_struct.inputMatchSuccessStatus = 1;
             }
-           else
-           {
-               printf("\nColours or Colour code entered has some error... Please revalidate and try again... Terminating... !!!\n");
-           }
         }
-        if(userInputDetails_struct.inputMatchSuccessStatus == 1)
-        {
-           break;
-        }
+    }
+    if(userInputDetails_struct.inputMatchSuccessStatus == 0)
+    {
+        printf("\nColours or Colour code entered has some error... Please revalidate and try again... Terminating... !!!\n");
     }
     return userInputDetails_struct;
 }
