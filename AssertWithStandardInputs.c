@@ -24,4 +24,7 @@ void AssertWithStandardInputs(void)
         userInput.minorColourIndexOutOfUserInput  = SLATE;
         userInput.colourCodingOutOfUserInput  = 25;
         AssertWithUserInputsColourPairAgainstCode(userInput);
+        printf("\n\n------- ***** -------\n");
+        printf("ASSERTION BASED ON STANDARD INPUTS SUCCESS\n");
+        printf("------- ***** -------\n");  
  }
