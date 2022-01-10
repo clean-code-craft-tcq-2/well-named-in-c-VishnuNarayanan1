@@ -1,1 +1,0 @@
-void ValidateTypeOfAssertion(char userInput);
