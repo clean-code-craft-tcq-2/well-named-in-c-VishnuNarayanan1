@@ -3,7 +3,7 @@ typedef struct {
     int MajorColourIndexOutOfUserInput;
     int MinorColourIndexOutOfUserInput;
     int ColourCodingOutOfUserInput;
-} UserInputColorsAndCodes;
+} UserInputColoursAndCodes;
 
 
-UserInputColorsAndCodes GetUserInputForAssertion(void);
+UserInputColoursAndCodes GetUserInputForAssertion(void);
