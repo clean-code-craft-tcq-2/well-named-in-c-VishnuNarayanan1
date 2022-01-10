@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <GetUserInputForAssertion.h>
+#include <GetSecondaryInputFromUserForAssertion.h>
 
 UserInputColoursAndCodes GetUserInputForAssertion(void)
 {
