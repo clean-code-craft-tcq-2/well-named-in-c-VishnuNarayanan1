@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
-#include "GetSecondaryInputFromUserForAssertion.h"
 #include "ConfigurationOfColourCodingDatabase.h"
+#include "GetSecondaryInputFromUserForAssertion.h"
 #include "AssertColourPairAgainstCode.h"
 
 void AssertColourPairAgainstCode(UserInputColoursAndCodes userInput)
