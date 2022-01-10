@@ -2,8 +2,8 @@
 #include "ConfigurationOfColourCodingDatabase.h"
 #include "ProcessPrimaryInputOfUser.h"
 #include "PrintColourCodingDatabase.h"
-#include "AssertCodeAgainstColourPair.h"
 #include "GetSecondaryInputFromUserForAssertion.h"
+#include "AssertCodeAgainstColourPair.h"
 
 int main()
 {
