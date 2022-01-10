@@ -11,17 +11,17 @@ void AssertWithStandardInputs(void)
         userInput.majorColourIndexOutOfUserInput  = WHITE;
         userInput.minorColourIndexOutOfUserInput  = BROWN;
         userInput.colourCodingOutOfUserInput  = 4;
-        AssertCodeAgainstColourPair(userInput);
+        AssertWithUserInputsCodeAgainstColourPair(userInput);
         userInput.majorColourIndexOutOfUserInput  = WHITE;
         userInput.minorColourIndexOutOfUserInput  = SLATE;
         userInput.colourCodingOutOfUserInput  = 5;
-        AssertCodeAgainstColourPair(userInput);
+        AssertWithUserInputsCodeAgainstColourPair(userInput);
         userInput.majorColourIndexOutOfUserInput  = BLACK;
         userInput.minorColourIndexOutOfUserInput  = ORANGE;
         userInput.colourCodingOutOfUserInput  = 12;
-        AssertColourPairAgainstCode(userInput);
+        AssertWithUserInputsColourPairAgainstCode(userInput);
         userInput.majorColourIndexOutOfUserInput  = VIOLET;
         userInput.minorColourIndexOutOfUserInput  = SLATE;
         userInput.colourCodingOutOfUserInput  = 25;
-        AssertColourPairAgainstCode(userInput);
+        AssertWithUserInputsColourPairAgainstCode(userInput);
  }
