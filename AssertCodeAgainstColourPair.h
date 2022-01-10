@@ -1,1 +1,0 @@
-void AssertCodeAgainstColourPair(UserInputColoursAndCodes userInput);
