@@ -12,6 +12,6 @@ int main()
             printf("Enter '0' to Exit\n\n");
             printf ("\nIts time for you to enter your input : \n");
             scanf("%d",&UserInputToProcess);
-            ProcessPrimaryInputOfUser(UserInputToProcess);
+            ProcessPrimaryInputOfUser(2);
       } while((UserInputToProcess == 1) || (UserInputToProcess == 2) || (UserInputToProcess == 3));
 }
