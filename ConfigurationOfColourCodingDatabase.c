@@ -12,3 +12,5 @@ ColourCodingDatabase ColourCodingDatabaseDetails_struct [MaxPossibleColoursInMaj
     {YELLOW , BROWN},
     {VIOLET , SLATE},
 };
+
+OperationType OperationTypeConfigured_Enum = PerformStandardOperations;
