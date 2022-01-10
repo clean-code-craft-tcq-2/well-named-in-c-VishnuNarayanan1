@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <ProcesPrimaryInputOfUser.h>
-#include <ValidatePrimaryUserInputForAssertion.h>
+#include "ProcessPrimaryInputOfUser.h"
+#include "ValidatePrimaryUserInputForAssertion.h"
 
-void ProcesPrimaryInputOfUser(char userInput)
+void ProcessPrimaryInputOfUser(char userInput)
 {
   switch(userInput)
     case '1':
