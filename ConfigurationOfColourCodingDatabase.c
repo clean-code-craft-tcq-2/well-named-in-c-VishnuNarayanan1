@@ -9,6 +9,6 @@ ColourCodingDatabase ColourCodingDatabaseDetails_struct [MaxPossibleColoursInMaj
     {WHITE , BLUE},
     {RED , ORANGE},
     {BLACK , GREEN},
-    {YELLOW , BROWN}
+    {YELLOW , BROWN},
     {VIOLET , SLATE},
 }
