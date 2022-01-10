@@ -11,7 +11,7 @@ int main()
             printf("Enter '3' to check whether the colours are matched rightly against the code given\n\n");
             printf("Enter '0' to Exit\n\n");
             printf ("\nIts time for you to enter your input : \n");
-            scanf("%d",&UserInputToProcess);
-            ProcessPrimaryInputOfUser(2);
+            scanf(" %d",&UserInputToProcess);
+            ProcessPrimaryInputOfUser(UserInputToProcess);
       } while((UserInputToProcess == 1) || (UserInputToProcess == 2) || (UserInputToProcess == 3));
 }
