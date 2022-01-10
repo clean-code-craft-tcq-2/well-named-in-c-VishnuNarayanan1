@@ -13,4 +13,4 @@ ColourCodingDatabase ColourCodingDatabaseDetails_struct [MaxPossibleColoursInMaj
     {VIOLET , SLATE},
 };
 
-enum OperationType OperationTypeConfigured_Enum = PerformOperationsBasedOnUserInput;
+enum OperationType OperationTypeConfigured_Enum = PerformStandardOperations;
