@@ -16,6 +16,7 @@ int main()
         userInput.minorColourIndexOutOfUserInput  = (int)BROWN;
         userInput.colourCodingOutOfUserInput  = 4;
         PrintColourCodingDatabase();
+        AssertWithStandardInputs();
         AssertCodeAgainstColourPair(userInput);
     }
     else
