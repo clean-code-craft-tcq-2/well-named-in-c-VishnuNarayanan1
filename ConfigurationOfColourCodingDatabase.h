@@ -12,4 +12,4 @@ typedef struct {
 
 extern const char* MajorColourNamesString[];
 extern const char* MinorColourNamesString[];
-extern OperationType OperationTypeConfigured_Enum;
+
