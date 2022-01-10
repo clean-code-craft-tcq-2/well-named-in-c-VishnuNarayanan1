@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "includes/GetSecondaryInputFromUserForAssertion.h"
-#include "includes/ValidatePrimaryUserInputForAssertion.h"
-#include "includes/AssertCodeAgainstColourPair.h"
-#include "includes/AssertColourPairAgainstCode.h" 
+#include "GetSecondaryInputFromUserForAssertion.h"
+#include "ValidatePrimaryUserInputForAssertion.h"
+#include "AssertCodeAgainstColourPair.h"
+#include "AssertColourPairAgainstCode.h" 
 
 void ValidatePrimaryUserInputForAssertion(char userInputForAssertion)
 {
