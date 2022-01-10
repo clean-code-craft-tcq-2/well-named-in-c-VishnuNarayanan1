@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include "ConfigurationOfColourCodingDatabase.h"
 #include "ProcessPrimaryInputOfUser.h"
 #include "PrintColourCodingDatabase.h"
-#include "GetSecondaryInputFromUserForAssertion.h"
-#include "AssertCodeAgainstColourPair.h"
+#include "AssertWithStandardInputs.h"
 
 int main()
 {
@@ -11,13 +9,8 @@ int main()
     printf("------ Data base of colour coding ------\n\n");
     if(OperationTypeConfigured_Enum == PerformStandardOperations)
     {
-        UserInputColoursAndCodes userInput;
-        userInput.majorColourIndexOutOfUserInput  = (int)WHITE;
-        userInput.minorColourIndexOutOfUserInput  = (int)BROWN;
-        userInput.colourCodingOutOfUserInput  = 4;
         PrintColourCodingDatabase();
         AssertWithStandardInputs();
-        AssertCodeAgainstColourPair(userInput);
     }
     else
     {
