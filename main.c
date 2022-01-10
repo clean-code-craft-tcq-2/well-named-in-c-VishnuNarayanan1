@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "ProcesPrimaryInputOfUser.h"
+#include "ProcessPrimaryInputOfUser.h"
 
 int main()
 {
@@ -12,6 +12,6 @@ int main()
             printf("Enter '0' to Exit\n\n");
             printf ("\nIts time for you to enter your input : \n");
             scanf("%d",&UserInputToProcess);
-            ProcesPrimaryInputOfUser(UserInputToProcess);
+            ProcessPrimaryInputOfUser(UserInputToProcess);
       } while((UserInputToProcess == 1) || (UserInputToProcess == 2) || (UserInputToProcess == 3));
 }
