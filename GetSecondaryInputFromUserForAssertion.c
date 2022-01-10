@@ -7,7 +7,7 @@ UserInputColoursAndCodes GetUserInputForAssertion(void)
 {
    UserInputColoursAndCodes userInputDetails_struct;
    userInputDetails_struct.inputMatchSuccessStatus = 0;
-   int indexMajorColour = 0, indexMinorColour = 0, matchMajorColourWithInput = 0, matchMinorColourWithInput = 0;
+   unsigned int indexMajorColour = 0, indexMinorColour = 0, matchMajorColourWithInput = 0, matchMinorColourWithInput = 0;
    char UserInputMajorColourNameString[20], UserInputMinorColourNameString[20];
    printf("\n Input Major Colour : ");
    scanf("%s", UserInputMajorColourNameString);
