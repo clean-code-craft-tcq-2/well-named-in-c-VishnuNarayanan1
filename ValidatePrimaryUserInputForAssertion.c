@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "GetSecondaryInputFromUserForAssertion.h"
 #include "ValidatePrimaryUserInputForAssertion.h"
-#include "AssertCodeAgainstColourPair.h"
-#include "AssertColourPairAgainstCode.h" 
+#include "AssertWithUserInputsCodeAgainstColourPair.h"
+#include "AssertWithUserInputsColourPairAgainstCode.h" 
 
 void ValidatePrimaryUserInputForAssertion(char userInputForAssertion)
 {
@@ -10,11 +10,11 @@ void ValidatePrimaryUserInputForAssertion(char userInputForAssertion)
   retrievedUserInput = GetSecondaryInputFromUserForAssertion();
   if((retrievedUserInput.inputMatchSuccessStatus == 1) && (userInputForAssertion == 2))
   {
-      AssertCodeAgainstColourPair(retrievedUserInput);
+      AssertWithUserInputsCodeAgainstColourPair(retrievedUserInput);
   }
   else if((retrievedUserInput.inputMatchSuccessStatus == 1) && (userInputForAssertion == 3))
   {
-      AssertColourPairAgainstCode(retrievedUserInput);
+      AssertWithUserInputsColourPairAgainstCode(retrievedUserInput);
   }
   else
   {
