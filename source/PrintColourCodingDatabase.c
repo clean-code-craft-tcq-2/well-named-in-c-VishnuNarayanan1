@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <ConfigurationOfColourCodingDatabase.h>
-extern ColourCodingDatabase ColourCodingDatabaseDetails_struct [MaxPossibleColoursInMajorOrMinor];
 
 void PrintColourCodingDatabase(void)
 {
@@ -12,8 +11,8 @@ void PrintColourCodingDatabase(void)
     {
         for(indexMinorColours = 0; indexMinorColours < MaxPossibleColoursInMajorOrMinor; indexMinorColours++)
         {
-             printf("\n Major Colour : %s  ", ColourCodingDatabaseDetails_struct[indexMajorColors].MajorColourNamesString);
-             printf("\n Minor Colour : %s  ", ColourCodingDatabaseDetails_struct[indexMinorColors].MinorColourNamesString);
+             printf("\n Major Colour : %s  ", MajorColorNamesString[indexMajorColours]);
+             printf("\n Minor Colour : %s  ", MinorColorNamesString[indexMinorColours]);
              printf("\n Colour Code  : %d  \n", colourCode);
              colourCode++;
         }
