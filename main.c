@@ -10,7 +10,7 @@ int main()
     printf("------ Welcome to the data base of colour coding ------\n\n");
     if(OperationTypeConfigured_Enum == PerformStandardOperations)
     {
-        printf("--!!!!!---- Execution based on standard inputs as per configuration ----!!!!!--\n\n");
+        printf("--!!!!!---- Execution based on standard inputs as per the configuration ----!!!!!--\n\n");
         PrintColourCodingDatabase();
         AssertWithStandardInputs();
     }
