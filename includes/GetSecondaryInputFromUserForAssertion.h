@@ -7,4 +7,4 @@ typedef struct {
 } UserInputColoursAndCodes;
 
 
-UserInputColoursAndCodes GetUserInputForAssertion(void);
+UserInputColoursAndCodes GetSecondaryInputFromUserForAssertion(void);
