@@ -3,7 +3,7 @@
 #include "ConfigurationOfColourCodingDatabase.h"
 #include "GetSecondaryInputFromUserForAssertion.h"
 
-UserInputColoursAndCodes GetUserInputForAssertion(void)
+UserInputColoursAndCodes GetSecondaryInputFromUserForAssertion(void)
 {
    UserInputColoursAndCodes userInputDetails_struct;
    userInputDetails_struct.inputMatchSuccessStatus = 0;
