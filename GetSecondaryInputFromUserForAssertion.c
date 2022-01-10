@@ -3,7 +3,7 @@
 
 UserInputColoursAndCodes GetUserInputForAssertion(void)
 {
-   UserInputColorsAndCodes userInputDetails_struct;
+   UserInputColoursAndCodes userInputDetails_struct;
    userInputDetails_struct.inputMatchSuccessStatus = 0;
    int indexMajorColour = 0, indexMinorColour = 0, matchMajorColourWithInput = 0, matchMinorColourWithInput = 0;
    char UserInputMajorColourNameString[20], UserInputMinorColourNameString[20];
