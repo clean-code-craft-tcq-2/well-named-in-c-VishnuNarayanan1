@@ -3,15 +3,15 @@
 #include "PrintColourCodingDatabase.h"
 #include "ValidatePrimaryUserInputForAssertion.h"
 
-void ProcessPrimaryInputOfUser(char userInput)
+void ProcessPrimaryInputOfUser(int userInput)
 {
   switch(userInput)
   {
-      case '1':
+      case 1:
           PrintColourCodingDatabase();
         break;
-      case '2':
-      case '3':
+      case 2:
+      case 3:
           ValidatePrimaryUserInputForAssertion(userInput);
         break;
       default:
