@@ -11,4 +11,4 @@ ColourCodingDatabase ColourCodingDatabaseDetails_struct [MaxPossibleColoursInMaj
     {BLACK , GREEN},
     {YELLOW , BROWN},
     {VIOLET , SLATE},
-}
+};
