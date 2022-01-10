@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ProcesPrimaryInputOfUser.h>
 
 int main()
 {
@@ -9,8 +10,8 @@ int main()
             printf("Enter '2' to check whether the code is matched rightly against the pair of colours given\n\n");
             printf("Enter '3' to check whether the colours are matched rightly against the code given\n\n");
             printf("Enter '0' to Exit\n\n");
-            printf ("\nIts time for you to enter your input : "\n);
+            printf ("\nIts time for you to enter your input : \n");
             scanf("%d",&UserInputToExecute);
-            ProcesPrimaryInputOfUser(UserInputToExecute);
-      } while((UserInputToExecute == 1) || (UserInputToExecute == 2) || (UserInputToExecute == 3));
+            ProcesPrimaryInputOfUser(UserInputToProcess);
+      } while((UserInputToProcess == 1) || (UserInputToProcess == 2) || (UserInputToProcess == 3));
 }
