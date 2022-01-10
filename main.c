@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "ConfigurationOfColourCodingDatabase.h"
 #include "ProcessPrimaryInputOfUser.h"
 #include "PrintColourCodingDatabase.h"
 #include "AssertWithStandardInputs.h"
