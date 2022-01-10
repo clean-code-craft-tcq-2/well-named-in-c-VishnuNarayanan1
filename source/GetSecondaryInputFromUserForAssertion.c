@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-#include "ConfigurationOfColourCodingDatabase.h"
-#include "GetSecondaryInputFromUserForAssertion.h"
+#include "includes/ConfigurationOfColourCodingDatabase.h"
+#include "includes/GetSecondaryInputFromUserForAssertion.h"
 
 UserInputColoursAndCodes GetSecondaryInputFromUserForAssertion(void)
 {
