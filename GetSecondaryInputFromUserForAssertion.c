@@ -12,7 +12,7 @@ UserInputColoursAndCodes GetUserInputForAssertion(void)
    printf("\n Input Minor Colour : ");
    scanf("%s", UserInputMinorColourNameString);
    printf("\n Input Colour Code : ");
-   scanf("%d", &(userInputDetails_struct.ColourCodingOutOfUserInput));
+   scanf("%d", &(userInputDetails_struct.colourCodingOutOfUserInput));
 
     for(indexMajorColour = 0; indexMajorColour < MaxPossibleColoursInMajorOrMinor ; indexMajorColour++)
     {
@@ -20,10 +20,10 @@ UserInputColoursAndCodes GetUserInputForAssertion(void)
         {
             matchMajorColourWithInput = strcmp(UserInputMajorColourNameString , MajorColourNamesString[indexMajorColour]);
             matchMinorColourWithInput = strcmp(UserInputMinorColourNameString , MinorColourNamesString[indexMinorColour]);
-            if((matchMajorColourWithInput == 0) && (matchMinorColourWithInput == 0) && (userInputDetails_struct.ColourCodingOutOfUserInput >= 1) && (userInputDetails_struct.ColourCodingOutOfUserInput <= 25))
+            if((matchMajorColourWithInput == 0) && (matchMinorColourWithInput == 0) && (userInputDetails_struct.colourCodingOutOfUserInput >= 1) && (userInputDetails_struct.colourCodingOutOfUserInput <= 25))
             {
-                 userInputDetails_struct.MajorColourIndexOutOfUserInput = indexMajorColour;
-                 userInputDetails_struct.MinorColourIndexOutOfUserInput = indexMinorColour;
+                 userInputDetails_struct.majorColourIndexOutOfUserInput = indexMajorColour;
+                 userInputDetails_struct.minorColourIndexOutOfUserInput = indexMinorColour;
                  userInputDetails_struct.inputMatchSuccessStatus = 1;
             }
            else
