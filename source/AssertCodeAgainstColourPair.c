@@ -5,6 +5,6 @@
 
 void AssertCodeAgainstColourPair(UserInputColoursAndCodes userInput)
 {
-  int code = (userInput.majorColourIndexOutOfUserInput * MaxPossibleColoursInMajorOrMinor) + userInput.minorColourIndexOutOfUserInput + 1
-  assert(code , userInput.colourCodingOutOfUserInput);
+  int colourCodeAgainstColourPair = (userInput.majorColourIndexOutOfUserInput * MaxPossibleColoursInMajorOrMinor) + userInput.minorColourIndexOutOfUserInput + 1
+  assert(colourCodeAgainstColourPair == userInput.colourCodingOutOfUserInput);
 }
