@@ -6,7 +6,7 @@ enum MinorColour_Enum {BLUE, ORANGE, GREEN, BROWN, SLATE};
 typedef struct {
     enum MajorColour_Enum MajorColourNamesEnum;
     enum MinorColour_Enum MinorColourNamesEnum;
-} ColorCodingDatabase;
+} ColourCodingDatabase;
 
 extern const char* MajorColourNamesString[];
 extern const char* MinorColourNamesString[];
