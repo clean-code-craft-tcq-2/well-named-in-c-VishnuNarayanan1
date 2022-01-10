@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "ProcessPrimaryInputOfUser.h"
+#include "PrintColourCodingDatabase.h"
 #include "ValidatePrimaryUserInputForAssertion.h"
 
 void ProcessPrimaryInputOfUser(char userInput)
