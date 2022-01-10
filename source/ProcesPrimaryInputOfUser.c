@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ProcesPrimaryInputOfUser.h>
+#include <ValidatePrimaryUserInputForAssertion.h>
 
 void ProcesPrimaryInputOfUser(char userInput)
 {
@@ -8,12 +9,8 @@ void ProcesPrimaryInputOfUser(char userInput)
         PrintColourCodingDatabase();
       break;
     case '2':
-        GetUserInputForAssertion();
-        AssertCodeAgainstColourPair();
-      break;
     case '3':
-        GetUserInputForAssertion();
-        AssertColourPairAgainstCode();
+        ValidatePrimaryUserInputForAssertion(userInput);
       break;
     default:
         printf("\n Valid user input is required to proceed ... Terminating ...\n");
