@@ -5,7 +5,7 @@
 void ValidatePrimaryUserInputForAssertion(char userInputForAssertion)
 {
   UserInputColoursAndCodes retrievedUserInput;
-  retrievedUserInput = GetUserInputForAssertion();
+  retrievedUserInput = GetSecondaryInputFromUserForAssertion();
   if((retrievedUserInput.inputMatchSuccessStatus == 1) && (userInputForAssertion == 2))
   {
       AssertCodeAgainstColourPair(retrievedUserInput);
