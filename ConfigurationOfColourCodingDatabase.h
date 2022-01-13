@@ -1,4 +1,5 @@
-#define MaxPossibleColoursInMajorOrMinor (5u)
+#define MaxPossibleMajorColours (5u)
+#define MaxPossibleMinorColours (5u)
 
 enum MajorColour_Enum {WHITE, RED, BLACK, YELLOW, VIOLET};
 enum MinorColour_Enum {BLUE, ORANGE, GREEN, BROWN, SLATE};
