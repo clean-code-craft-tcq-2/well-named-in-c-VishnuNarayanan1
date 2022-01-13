@@ -16,9 +16,9 @@ UserInputColoursAndCodes GetSecondaryInputFromUserForAssertion(void)
    printf("\n Input Colour Code : ");
    scanf("%d", &(userInputDetails_struct.colourCodingOutOfUserInput));
 
-    for(indexMajorColour = 0; indexMajorColour < MaxPossibleColoursInMajorOrMinor ; indexMajorColour++)
+    for(indexMajorColour = 0; indexMajorColour < MaxPossibleMajorColours ; indexMajorColour++)
     {
-        for(indexMinorColour = 0; indexMinorColour < MaxPossibleColoursInMajorOrMinor ; indexMinorColour++)
+        for(indexMinorColour = 0; indexMinorColour < MaxPossibleMinorColours ; indexMinorColour++)
         {
             matchMajorColourWithInput = strcmp(UserInputMajorColourNameString , MajorColourNamesString[indexMajorColour]);
             matchMinorColourWithInput = strcmp(UserInputMinorColourNameString , MinorColourNamesString[indexMinorColour]);
