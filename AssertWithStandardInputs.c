@@ -9,7 +9,7 @@
 void AssertWithStandardInputs(void)
 {
         UserInputColoursAndCodes userInput;
-        //AssertPrintColourCodingDatabase();
+        AssertPrintColourCodingDatabase();
         userInput.majorColourIndexOutOfUserInput  = WHITE;
         userInput.minorColourIndexOutOfUserInput  = BROWN;
         userInput.colourCodingOutOfUserInput  = 4;
