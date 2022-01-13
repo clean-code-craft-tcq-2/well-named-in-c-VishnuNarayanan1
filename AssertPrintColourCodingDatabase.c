@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include "AssertPrintColourCodingDatabase.h"
-include "StatusOfPrintColourCodingDatabase.h"
+#include "StatusOfPrintColourCodingDatabase.h"
   
 void AssertPrintColourCodingDatabase(void)
 {
