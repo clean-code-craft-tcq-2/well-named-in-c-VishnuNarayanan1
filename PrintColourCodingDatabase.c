@@ -24,7 +24,6 @@ void PrintColourCodingDatabase(void)
 
     if((indexMajorColours == MaxPossibleMajorColours) && (indexMinorColours == MaxPossibleMinorColours))
     {
-        printf("\nEntered successfully\n");
         SuccessStatusOfPrintColourCodingDatabase();
     }
 }
