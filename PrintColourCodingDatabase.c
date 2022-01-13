@@ -8,9 +8,9 @@ void PrintColourCodingDatabase(void)
     unsigned int indexMinorColours = 0;
     unsigned int colourCode = 1;
     printf("------- COLOUR CODING DATABASE -------\n\n");
-    for(indexMajorColours = 0; indexMajorColours < MaxPossibleColoursInMajorOrMinor; indexMajorColours++)
+    for(indexMajorColours = 0; indexMajorColours < MaxPossibleMajorColours; indexMajorColours++)
     {
-        for(indexMinorColours = 0; indexMinorColours < MaxPossibleColoursInMajorOrMinor; indexMinorColours++)
+        for(indexMinorColours = 0; indexMinorColours < MaxPossibleMinorColours; indexMinorColours++)
         {
              printf("\n------- ***** -------");
              printf("\n Major Colour : %s  ", MajorColourNamesString[indexMajorColours]);
