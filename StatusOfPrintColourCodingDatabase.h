@@ -1,3 +1,5 @@
+extern int Status_Print_ColourCode_DataBase;
+
 void SuccessStatusOfPrintColourCodingDatabase(void);
 int ReturnStatusOfPrintColourCodingDatabase(void);
 void ResetStatusOfPrintColourCodingDatabase(void);
