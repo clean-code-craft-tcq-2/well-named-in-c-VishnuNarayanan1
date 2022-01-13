@@ -6,7 +6,7 @@ int StatusPrintColourCodingDatabase = 0;
 void SuccessStatusOfPrintColourCodingDatabase(void)
 {
   printf("\n Success1 %d", &StatusPrintColourCodingDatabase);
-  StatusPrintColourCodingDatabase = 0x5A;
+  StatusPrintColourCodingDatabase = 1;
   printf("\n Success2 %d", &StatusPrintColourCodingDatabase);
 }
 
