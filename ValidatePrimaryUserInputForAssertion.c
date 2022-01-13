@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "GetSecondaryInputFromUserForAssertion.h"
 #include "ValidatePrimaryUserInputForAssertion.h"
 #include "AssertWithUserInputsCodeAgainstColourPair.h"
