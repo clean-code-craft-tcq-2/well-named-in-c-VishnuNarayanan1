@@ -1,1 +1,1 @@
-void ValidatePrimaryUserInputForAssertion(char userInputForAssertion);
+void ValidatePrimaryUserInputForAssertion(char userInputForAssertion[]);
