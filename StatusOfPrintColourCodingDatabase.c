@@ -1,7 +1,7 @@
 #include <stdio.h>
 include "StatusOfPrintColourCodingDatabase.h"
 
-int Status_Print_ColourCode_DataBase = 0;
+static int Status_Print_ColourCode_DataBase = 0;
 
 void SuccessStatusOfPrintColourCodingDatabase(void)
 {
