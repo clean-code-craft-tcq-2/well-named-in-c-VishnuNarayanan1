@@ -7,7 +7,7 @@ void AssertPrintColourCodingDatabase(void)
 {
   int statusOfPrintColourCode = 0;
   statusOfPrintColourCode = ReturnStatusOfPrintColourCodingDatabase();
-  assert(statusOfPrintColourCode,0x54);
+  assert(statusOfPrintColourCode == 0x54);
   ResetStatusOfPrintColourCodingDatabase();
 }
 
