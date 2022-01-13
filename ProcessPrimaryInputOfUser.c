@@ -3,19 +3,18 @@
 #include "PrintColourCodingDatabase.h"
 #include "ValidatePrimaryUserInputForAssertion.h"
 
-void ProcessPrimaryInputOfUser(int userInput)
+void ProcessPrimaryInputOfUser(char userInput[])
 {
-  switch(userInput)
-  {
-      case 1:
+      if(strcmp(userInput, "PRINT_COLOUR_CODING_DATABASE") == 0)
+      {
           PrintColourCodingDatabase();
-        break;
-      case 2:
-      case 3:
+      }
+      else if((strcmp(userInput, "GET_CODE_AGAINST_COLOURPAIR") == 0) || (strcmp(userInput, "GET_COLOURPAIR_AGAINST_CODE") == 0))
+      {
           ValidatePrimaryUserInputForAssertion(userInput);
-        break;
-      default:
+      }
+      else
+      {
           printf("\n Valid user input is required to proceed ... Terminating ...\n");
-        break; 
-  }
+      }
 }
