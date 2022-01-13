@@ -1,1 +1,3 @@
 void SuccessStatusOfPrintColourCodingDatabase(void);
+int ReturnStatusOfPrintColourCodingDatabase(void);
+void ResetStatusOfPrintColourCodingDatabase(void);
