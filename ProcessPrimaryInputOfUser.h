@@ -1,1 +1,1 @@
-void ProcessPrimaryInputOfUser(int userInput);
+void ProcessPrimaryInputOfUser(char userInput[]);
