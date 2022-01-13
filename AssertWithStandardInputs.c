@@ -4,10 +4,12 @@
 #include "GetSecondaryInputFromUserForAssertion.h"
 #include "AssertWithUserInputsCodeAgainstColourPair.h"
 #include "AssertWithUserInputsColourPairAgainstCode.h"
+#include "AssertPrintColourCodingDatabase.h"
 
 void AssertWithStandardInputs(void)
 {
         UserInputColoursAndCodes userInput;
+        AssertPrintColourCodingDatabase();
         userInput.majorColourIndexOutOfUserInput  = WHITE;
         userInput.minorColourIndexOutOfUserInput  = BROWN;
         userInput.colourCodingOutOfUserInput  = 4;
