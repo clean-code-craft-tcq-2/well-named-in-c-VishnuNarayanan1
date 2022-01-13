@@ -21,8 +21,10 @@ void PrintColourCodingDatabase(void)
              colourCode++;
         }
     }
+    printf("%d",indexMajorColours);
+    /*
     if((indexMajorColours == MaxPossibleMajorColours) && (indexMinorColours == MaxPossibleMinorColours))
     {
         SuccessStatusOfPrintColourCodingDatabase();
-    }
+    }*/
 }
