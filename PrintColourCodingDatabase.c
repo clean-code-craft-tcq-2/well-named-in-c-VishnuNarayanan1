@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "ConfigurationOfColourCodingDatabase.h"
 #include "PrintColourCodingDatabase.h"
-
+int Assert_Print_ColourCode_DataBase = 0;
 void PrintColourCodingDatabase(void)
 {
     unsigned int indexMajorColours = 0;
@@ -19,5 +19,9 @@ void PrintColourCodingDatabase(void)
              printf("\n------- ***** -------\n");
              colourCode++;
         }
+    }
+    if((indexMajorColours == 5) && (indexMinorColours == 5))
+    {
+        SuccessStatusOfPrintColourCodingDatabase();
     }
 }
